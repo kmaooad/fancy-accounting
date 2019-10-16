@@ -1,0 +1,23 @@
+{
+  "payments": [
+    { "customer": 81, "amount": 200 },
+    { "customer": 84, "amount": 80 },
+    { "customer": 83, "amount": 150 }
+  ],
+  "refunds":[
+    { "customer": 81, "amount": 50 },
+    { "customer": 84, "amount": 100 }
+  ],
+  "invoices": [
+    { "customer": 81, "total": 105 },
+    { "customer": 84, "total": 120 },
+    { "customer": 85, "total": 100 }
+  ],
+  "customers": [
+    { "billing_id": 920, "id": 81 },
+    { "billing_id": 930, "id": 82 },
+    { "billing_id": 940, "id": 83 },
+    { "billing_id": 950, "id": 84 },
+    { "billing_id": 960, "id": 85 }
+  ]
+}
